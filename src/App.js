@@ -1,7 +1,14 @@
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./pages/Home/Home";
+
 function App() {
   return (
     <div className='font-rubik'>
-      <h2 className="text-3xl">hello</h2>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
   );
 }
