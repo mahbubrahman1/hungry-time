@@ -5,17 +5,15 @@ import '../../assets/scss/app.scss'
 
 const Navbar = () => {
     return (
-        <div class="container">
-            <nav class="navbar navbar-expand-lg sticky-top position-absolute me-auto">
-                <div>
-                    <img src={Logo} alt="" width={'130px'} />
-                </div>
-                <ul className='nav'>
-                    <Link to='#'><li className='me-3 nav-link '>SignIn</li></Link>
-                    <Link><button className='btn btn-warning'>SignUp</button></Link>
+        <div className='container'>
+            <nav className='d-flex justify-content-between mt-2'>
+                <img src={Logo} alt="" height={'50px'} />
+                <ul className='d-flex align-items-center'>
+                    <li className='nav-link me-3'>SignIn</li>
+                    <button className='btn btn-warning'><li className='nav-link'>SignUp</li></button>
                 </ul>
-            </nav >
-        </div >
+            </nav>
+        </div>
     )
 }
 

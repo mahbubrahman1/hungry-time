@@ -7,8 +7,10 @@ const Hero = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
-                        <h1>Are you hungry!</h1>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores vero maiores amet id perspiciatis? Voluptatum vitae optio, pariatur vero doloribus possimus cumque repellendus sit quam suscipit illum, quos nostrum, ipsum quis eveniet tempore quas quidem dolor tempora assumenda!</p>
+                        <h1 className='fw-bold'>Are you hungry!</h1>
+                        <h1>Don't wait!</h1>
+                        <h1>Order Now.</h1>
+                        <button className='btn btn-warning'>Menu Items</button>
                     </div>
                 </div>
             </div>
