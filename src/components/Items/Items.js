@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Item from '../../data/Item';
 import '../../assets/scss/app.scss';
+import { Link } from 'react-router-dom';
 
 const Items = () => {
     const [items, setItems] = useState(Item)
@@ -16,10 +17,10 @@ const Items = () => {
     return (
         <div className='container my-3'>
             <div className='d-flex justify-content-center mb-3'>
-                <button className='btn' onClick={() => setItems(Item)}>All</button>
-                <button className='btn' onClick={() => filterItem('breakfast')}>Breakfast</button>
-                <button className='btn' onClick={() => filterItem('lunch')}>Lunch</button>
-                <button className='btn' onClick={() => filterItem('dinner')}>Dinner</button>
+                <Link className='item-button' onClick={() => setItems(Item)}>All</Link>
+                <Link className='item-button' onClick={() => filterItem('breakfast')}>Breakfast</Link>
+                <Link className='item-button' onClick={() => filterItem('lunch')}>Lunch</Link>
+                <Link className='item-button' onClick={() => filterItem('dinner')}>Dinner</Link>
             </div>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 {

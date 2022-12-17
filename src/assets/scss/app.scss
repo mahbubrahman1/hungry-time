@@ -37,3 +37,11 @@
     left: 18px;
     color: rgb(214, 214, 214);
 }
+
+.item-button:hover {
+    font-weight: bold;
+
+    &:active {
+        font-weight: bold;
+    }
+}
