@@ -14,3 +14,26 @@
     background-size: cover;
     background-position: center;
 }
+
+.about-card {
+    position: relative;
+
+    img {
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+
+.about-card-title {
+    position: absolute;
+    bottom: 80px;
+    left: 18px;
+    color: rgb(235, 235, 235);
+}
+
+.about-card-text {
+    position: absolute;
+    bottom: 0px;
+    left: 18px;
+    color: rgb(214, 214, 214);
+}
