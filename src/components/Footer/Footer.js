@@ -13,10 +13,10 @@ const Footer = () => {
                             <img src={LogoFooter} alt="" width={'100 %'} />
                         </div>
                         <p>
-                            Here you can use rows and columns to organize your footer content. Lorem ipsum
-                            dolor sit amet, consectetur adipisicing elit.
+                            No matter where you find us, we’re making
+                            sure each meal our customers enjoy is delicious and one-of-a-kind.
                         </p>
-                        <p>© 2022 Copyright by Mahbubur Rahman</p>
+                        <p>© 2022 Copyright by Hungry Time</p>
                     </div>
 
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -32,9 +32,6 @@ const Footer = () => {
                         <p>
                             <a href="#!" class="text-reset">Dinner</a>
                         </p>
-                        <p>
-                            <a href="#!" class="text-reset">All</a>
-                        </p>
                     </div>
 
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -49,9 +46,6 @@ const Footer = () => {
                         </p>
                         <p>
                             <a href="#!" class="text-reset">Twitter</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Linkedin</a>
                         </p>
                     </div>
 
