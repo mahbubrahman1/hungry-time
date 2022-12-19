@@ -10,7 +10,6 @@ const Items = () => {
         const updatedItems = Item.filter((currentItem) => {
             return currentItem.category === cateItem;
         })
-
         setItems(updatedItems);
     }
 
@@ -34,7 +33,6 @@ const Items = () => {
                                             <h5 className="card-title">{item.name}</h5>
                                             <p className="card-text fw-bold">{item.price}</p>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>

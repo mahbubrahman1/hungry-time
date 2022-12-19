@@ -1,10 +1,8 @@
 * {
     font-family: 'Rubik';
+    overflow-x: hidden;
 }
 
-.orange-btn {
-    background-color: #F58029;
-}
 
 
 .bg-image {
@@ -44,4 +42,8 @@
     &:active {
         font-weight: bold;
     }
+}
+
+footer {
+    background-color: rgb(20, 14, 1);
 }
